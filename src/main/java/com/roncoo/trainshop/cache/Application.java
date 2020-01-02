@@ -21,8 +21,6 @@ import redis.clients.jedis.JedisCluster;
 import java.util.HashSet;
 import java.util.Set;
 
-//@EnableAutoConfiguration
-//@ComponentScan
 @SpringBootApplication
 @MapperScan("com.roncoo.trainshop.cache.mapper")
 public class Application {
